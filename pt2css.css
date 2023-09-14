@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+
+#big{
+    color: ghostwhite;
+}
+
+
+#txt{
+    color: lime;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+}
+@media screen and (min-width: 700px) {
+    .center {
+        display: flex;
+       justify-content: center;
+       align-items: center;
+}
+}
+
+#first{
+    color: indigo;
+    font-style: italic;
+    font-weight: 700;
+}
