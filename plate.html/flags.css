@@ -268,7 +268,7 @@ body {
     width: 900px;
     margin: 50px;
     display:grid;
-    grid-template-columns: 1fr 1 fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     background-color: royalblue;
 
@@ -278,6 +278,13 @@ body {
 
 #sweedyellow{
     background-color: yellow;
-    grid-column: 1 / 4;
+    grid-column: 1 / 7;
     grid-row: 3 / 4;
+}
+
+#sweedyellow2   {
+    background-color: yellow;
+    grid-column: 3  / 4 ;
+    grid-row: 1 / 6;
+
 }
