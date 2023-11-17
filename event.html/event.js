@@ -49,3 +49,17 @@ document.getElementById("color").addEventListener("wheel", function () {
 
  
 });
+
+document.getElementById("sss").addEventListener("copy", function () {
+    document.getElementById("sss").innerHTML = "how dare you";
+});
+
+
+document.getElementById("sss").addEventListener("mousedown", function () {
+    document.getElementById("sss").innerHTML = "hold";
+});
+
+
+document.getElementById("sss").addEventListener("mouseup", function () {
+    document.getElementById("sss").innerHTML = "Copy me if you dare";
+});
