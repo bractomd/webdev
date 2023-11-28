@@ -1,25 +1,25 @@
 body {
-    color:mediumspringgreen;
+    color:mediumaquamarine;
     background-color:black;
 }
 
 #money1 {
-    background-color: red;
+    background-color:mediumspringgreen;
 }
 
 #money2 {
-    background-color: orange;
+    background-color: mediumturquoise;
 }
 
 #money3 {
-    background-color: yellow;
+    background-color: mediumspringgreen;
 }
 #money4 {
-    background-color: green;
+    background-color: mediumturquoise;
 }
 #money5 {
-    background-color: blue;
+    background-color:mediumspringgreen;
 }
 #money6 {
-    background-color:purple;
+    background-color:mediumturquoise;
 }
