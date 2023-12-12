@@ -1,16 +1,22 @@
+* {
+    animation: goof 600s  infinite linear;
+}
+
 body {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
     background-image: url("Screenshot (1).png");
-
-
-
+    background-size: cover;
+    filter:saturate(50%)
 
 }
 
 footer{
     background-color: black;
-  
-color: white;
-  
+    color: white;
 }
 
 
@@ -23,3 +29,15 @@ color: white;
 #he{
     font-size: 100px;
 }
+
+@keyframes goof {  
+    from{
+        filter:saturate(0%)
+
+    }
+    to {
+        filter: saturate(10000%);
+    }
+}
+
+
